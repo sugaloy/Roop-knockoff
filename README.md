@@ -1,23 +1,10 @@
-## This project has been discontinued
+## Sugaloy's no effort way to run Roop Face Changer
+The Roop itself is an AI face changer that takes image input and image or video target to switch the face from input to target
 
-Yes, it still works, you can still use this software. It just won't recieve any updates now.
-
-> I do not have the interest or time to oversee the development of this software. I thank all the amazing people who contributed to this project and made what it is in it's final form.
-
-# Roop
-
-> Take a video and replace the face in it with a face of your choice. You only need one image of the desired face. No dataset, no training.
-
-[![Build Status](https://img.shields.io/github/actions/workflow/status/s0md3v/roop/ci.yml.svg?branch=main)](https://github.com/s0md3v/roop/actions?query=workflow:ci)
-
-<img src="https://i.ibb.co/4RdPYwQ/Untitled.jpg"/>
+It's not made by me, Roop is a library that you should get from the original author
 
 ## Installation
-
-Be aware, the installation needs technical skills and is not for beginners. Please do not open platform and installation related issues on GitHub.
-
-[Basic](https://github.com/s0md3v/roop/wiki/1.-Installation) - It is more likely to work on your computer, but will be quite slow
-
+This is a Basic ready-to-use version of Roop, if you are fancy and have access to fast GPU try the Acceleration version
 [Acceleration](https://github.com/s0md3v/roop/wiki/2.-Acceleration) - Unleash the full potential of your CPU and GPU
 
 
@@ -49,11 +36,6 @@ python run.py [options]
 --execution-threads EXECUTION_THREADS                                      number of execution threads
 -v, --version                                                              show program's version number and exit
 ```
-
-
-### Headless
-
-Using the `-s/--source`, `-t/--target` and `-o/--output` argument will run the program in headless mode.
 
 
 ## Disclaimer
